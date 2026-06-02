@@ -1,0 +1,360 @@
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
+2026-06-02 14:10:05 INFO BlockManager: registering block manager instance
+2026-06-02 14:11:12 INFO SparkContext: successfully registered client connection with master
+2026-06-02 14:12:40 WARN TaskSetManager: lost task 1.2 in stage 0.0 execution block
+2026-06-02 14:13:10 ERROR Executor: internal exception caught while running task 1.2 execution stage
+2026-06-02 14:14:18 INFO BlockManager: removing broadcast rdd tracking records
+2026-06-02 14:15:00 INFO SparkContext: clean shut down sequence triggered for active spark context
