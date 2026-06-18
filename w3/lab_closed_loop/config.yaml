@@ -1,0 +1,56 @@
+alertmanager_url: "http://localhost:9093"
+prometheus_url:   "http://localhost:9090"
+poll_interval_seconds: 15
+runbook_timeout_seconds: 30
+
+# Baseline JSON path (relative to this config file)
+baseline_path: "../data/baseline.json"
+
+# Alert -> runbook mapping (Option A - rule-based)
+runbook_map:
+  HighLatency:      "runbooks/restart_service.sh"
+  HighErrorRate:    "runbooks/clear_cache.sh"
+  InstanceDown:     "runbooks/restart_service.sh"
+  MultiStepDeploy:  "runbooks/multi_step_deploy.sh"
+  TestHallucination: "runbooks/nonexistent_runbook.sh"
+
+# Rollback map
+rollback_map:
+  HighLatency:    "runbooks/restart_service.sh"
+  HighErrorRate:  "runbooks/restart_service.sh"
+  InstanceDown:   "runbooks/restart_service.sh"
+
+# Runbook registry - only scripts listed here may be executed (hallucination guard)
+# TestHallucination maps to a script NOT in this list - that is intentional for scenario 6
+runbook_registry:
+  - "runbooks/restart_service.sh"
+  - "runbooks/clear_cache.sh"
+  - "runbooks/scale_replicas.sh"
+  - "runbooks/multi_step_deploy.sh"
+  - "runbooks/fail_step.sh"
+
+# Multi-step transactional deploy (scenario 4)
+# fail_step.sh is used as step-C so it always fails, triggering rollback
+multi_step_map:
+  MultiStepDeploy:
+    - "runbooks/multi_step_deploy.sh --step-a"
+    - "runbooks/multi_step_deploy.sh --step-b"
+    - "runbooks/fail_step.sh"
+
+# Rollback steps in reverse execution order: rollback-B first, then rollback-A
+multi_step_rollback_map:
+  MultiStepDeploy:
+    - "runbooks/multi_step_deploy.sh --rollback-b"
+    - "runbooks/multi_step_deploy.sh --rollback-a"
+
+blast_radius:
+  max_actions_per_minute: 3
+  max_restarts_per_service_per_hour: 5
+
+# Services the orchestrator should never act on
+skip_services:
+  - "closed-loop-orchestrator"
+
+circuit_breaker:
+  consecutive_failure_threshold: 3
+  reset_mode: manual
