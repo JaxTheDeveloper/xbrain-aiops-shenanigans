@@ -1,0 +1,122 @@
+groups:
+  - name: slo-alerts
+    rules:
+      - alert: frontend_fast_burn
+        expr: |
+          (
+            sum(rate(http_requests_total{service="frontend",status=~"5..|429"}[1h]))
+            / sum(rate(http_requests_total{service="frontend"}[1h]))
+          ) / (1 - 0.99) >= 14.4
+          and
+          (
+            sum(rate(http_requests_total{service="frontend",status=~"5..|429"}[5m]))
+            / sum(rate(http_requests_total{service="frontend"}[5m]))
+          ) / (1 - 0.99) >= 14.4
+        labels:
+          severity: page
+          tier: "1"
+
+      - alert: frontend_slow_burn
+        expr: |
+          (
+            sum(rate(http_requests_total{service="frontend",status=~"5..|429"}[6h]))
+            / sum(rate(http_requests_total{service="frontend"}[6h]))
+          ) / (1 - 0.99) >= 6
+          and
+          (
+            sum(rate(http_requests_total{service="frontend",status=~"5..|429"}[30m]))
+            / sum(rate(http_requests_total{service="frontend"}[30m]))
+          ) / (1 - 0.99) >= 6
+        labels:
+          severity: ticket
+          tier: "2"
+
+      - alert: api_fast_burn
+        expr: |
+          (
+            sum(rate(http_requests_total{service="api",status=~"5..|429"}[1h]))
+            / sum(rate(http_requests_total{service="api"}[1h]))
+          ) / (1 - 0.999) >= 14.4
+          and
+          (
+            sum(rate(http_requests_total{service="api",status=~"5..|429"}[5m]))
+            / sum(rate(http_requests_total{service="api"}[5m]))
+          ) / (1 - 0.999) >= 14.4
+        labels:
+          severity: page
+          tier: "1"
+
+      - alert: api_slow_burn
+        expr: |
+          (
+            sum(rate(http_requests_total{service="api",status=~"5..|429"}[6h]))
+            / sum(rate(http_requests_total{service="api"}[6h]))
+          ) / (1 - 0.999) >= 6
+          and
+          (
+            sum(rate(http_requests_total{service="api",status=~"5..|429"}[30m]))
+            / sum(rate(http_requests_total{service="api"}[30m]))
+          ) / (1 - 0.999) >= 6
+        labels:
+          severity: ticket
+          tier: "2"
+
+      - alert: api_weekly_burn
+        expr: |
+          (
+            sum(rate(http_requests_total{service="api",status=~"5..|429"}[3d]))
+            / sum(rate(http_requests_total{service="api"}[3d]))
+          ) / (1 - 0.999) >= 1
+          and
+          (
+            sum(rate(http_requests_total{service="api",status=~"5..|429"}[6h]))
+            / sum(rate(http_requests_total{service="api"}[6h]))
+          ) / (1 - 0.999) >= 1
+        labels:
+          severity: ticket
+          tier: "3"
+
+      - alert: db_fast_burn
+        expr: |
+          (
+            sum(rate(http_requests_total{service="db",status=~"5..|429"}[1h]))
+            / sum(rate(http_requests_total{service="db"}[1h]))
+          ) / (1 - 0.999) >= 14.4
+          and
+          (
+            sum(rate(http_requests_total{service="db",status=~"5..|429"}[5m]))
+            / sum(rate(http_requests_total{service="db"}[5m]))
+          ) / (1 - 0.999) >= 14.4
+        labels:
+          severity: page
+          tier: "1"
+
+      - alert: db_slow_burn
+        expr: |
+          (
+            sum(rate(http_requests_total{service="db",status=~"5..|429"}[6h]))
+            / sum(rate(http_requests_total{service="db"}[6h]))
+          ) / (1 - 0.999) >= 6
+          and
+          (
+            sum(rate(http_requests_total{service="db",status=~"5..|429"}[30m]))
+            / sum(rate(http_requests_total{service="db"}[30m]))
+          ) / (1 - 0.999) >= 6
+        labels:
+          severity: ticket
+          tier: "2"
+
+      - alert: db_weekly_burn
+        expr: |
+          (
+            sum(rate(http_requests_total{service="db",status=~"5..|429"}[3d]))
+            / sum(rate(http_requests_total{service="db"}[3d]))
+          ) / (1 - 0.999) >= 1
+          and
+          (
+            sum(rate(http_requests_total{service="db",status=~"5..|429"}[6h]))
+            / sum(rate(http_requests_total{service="db"}[6h]))
+          ) / (1 - 0.999) >= 1
+        labels:
+          severity: ticket
+          tier: "3"

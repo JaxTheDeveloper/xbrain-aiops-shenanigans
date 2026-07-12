@@ -1,0 +1,57 @@
+{
+  "clusters_analyzed": 2,
+  "results": [
+    {
+      "cluster_id": "c-000-000",
+      "graph_top3": [
+        [
+          "checkout-svc",
+          0.936
+        ],
+        [
+          "edge-lb",
+          0.624
+        ],
+        [
+          "payment-svc",
+          0.45
+        ]
+      ],
+      "root_cause": "checkout-svc",
+      "class": "ddos",
+      "confidence": 0.78,
+      "actions": [
+        "page_oncall:platform-team"
+      ],
+      "reasoning": "Graph traversal rated checkout-svc highest in the impact path. TF-IDF retrieval selected INC-2026-03-20 as the best historical match. Combined evidence supports checkout-svc as root cause with class ddos.",
+      "similar_incidents": [
+        "INC-2026-03-20",
+        "INC-2025-11-08",
+        "INC-2025-12-12"
+      ],
+      "method": "graph+tfidf"
+    },
+    {
+      "cluster_id": "c-000-001",
+      "graph_top3": [
+        [
+          "recommender-svc",
+          1.0
+        ]
+      ],
+      "root_cause": "recommender-svc",
+      "class": "batch_overlap",
+      "confidence": 0.72,
+      "actions": [
+        "page_oncall:platform-team"
+      ],
+      "reasoning": "Graph traversal rated recommender-svc highest in the impact path. TF-IDF retrieval selected INC-2026-03-07 as the best historical match. Combined evidence supports recommender-svc as root cause with class batch_overlap.",
+      "similar_incidents": [
+        "INC-2026-03-07",
+        "INC-2026-06-02",
+        "INC-2026-04-15"
+      ],
+      "method": "graph+tfidf"
+    }
+  ]
+}

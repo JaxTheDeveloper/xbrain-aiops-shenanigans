@@ -1,0 +1,17 @@
+{
+  "frontend": {
+    "success_rate_p50": 0.992,
+    "success_rate_p99": 0.974,
+    "events_per_day": 171428
+  },
+  "api": {
+    "success_rate_p50": 0.997,
+    "success_rate_p99": 0.989,
+    "events_per_day": 714285
+  },
+  "db": {
+    "success_rate_p50": 0.999,
+    "success_rate_p99": 0.996,
+    "events_per_day": 114285
+  }
+}

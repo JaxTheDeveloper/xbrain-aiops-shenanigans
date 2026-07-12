@@ -1,0 +1,52 @@
+version: 1
+experiments:
+  - id: 1
+    name: payment_latency
+    hypothesis: "A 500ms artificial latency on payment-svc will increase p99 latency and the pipeline should flag payment-svc as the likely root cause."
+    blast_radius: "single canary instance"
+    rollback: "automatic after the latency spike clears"
+  - id: 2
+    name: payment_error_rate
+    hypothesis: "A 30% loss injection on payment-svc should trigger an error-rate detector and route RCA to payment-svc."
+    blast_radius: "single canary instance"
+    rollback: "automatic after the loss injection is removed"
+  - id: 3
+    name: inventory_pod_kill
+    hypothesis: "A periodic pod kill on inventory-svc should surface an availability anomaly and choose inventory-svc as the root cause."
+    blast_radius: "one pod"
+    rollback: "restart the pod and verify health"
+  - id: 4
+    name: gateway_cpu_stress
+    hypothesis: "CPU stress on api-gateway should create a latency cascade across downstream services and shift RCA toward the gateway."
+    blast_radius: "one gateway replica"
+    rollback: "stop the stressor and allow recovery"
+  - id: 5
+    name: payment_db_memory_fill
+    hypothesis: "Filling payment-db memory should create connection-pool symptoms that the pipeline should attribute to payment-db."
+    blast_radius: "one DB replica"
+    rollback: "release memory pressure"
+  - id: 6
+    name: auth_clock_skew
+    hypothesis: "Clock skew in auth-svc should create auth failures and point RCA toward auth-svc."
+    blast_radius: "one auth instance"
+    rollback: "restore clock sync"
+  - id: 7
+    name: log_collector_disk_fill
+    hypothesis: "Filling the log collector disk should create ingestion lag and reveal whether the pipeline can detect a monitoring pipeline issue."
+    blast_radius: "collector container"
+    rollback: "free disk space"
+  - id: 8
+    name: edge_partition
+    hypothesis: "A 30-second partition between frontend and api-gateway should produce a visible user impact and RCA should point to the edge path."
+    blast_radius: "network link"
+    rollback: "restore connectivity"
+  - id: 9
+    name: dns_slow_lookup
+    hypothesis: "Slow DNS resolver behavior should create intermittent resolution failures and the pipeline should identify the dependency path."
+    blast_radius: "resolver container"
+    rollback: "restore resolver latency"
+  - id: 10
+    name: checkout_retry_storm
+    hypothesis: "A 20% HTTP 500 injection in checkout-svc should produce retries rather than a root-cause at checkout and should not be misattributed by RCA."
+    blast_radius: "single checkout instance"
+    rollback: "stop the fault injection"

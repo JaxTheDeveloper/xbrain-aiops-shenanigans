@@ -1,0 +1,23 @@
+{
+  "total": 10,
+  "detected": 7,
+  "rca_correct": 5,
+  "false_alarms_in_baseline": 1,
+  "precision": 0.83,
+  "recall": 0.7,
+  "mttd_p50_s": 28,
+  "mttd_p95_s": 61,
+  "verdict": "pass",
+  "per_experiment": [
+    {"id": 1, "name": "payment_latency", "detected": true, "mttd_s": 28, "rca_service": "payment-svc", "rca_correct": true},
+    {"id": 2, "name": "payment_error_rate", "detected": true, "mttd_s": 32, "rca_service": "payment-svc", "rca_correct": true},
+    {"id": 3, "name": "inventory_pod_kill", "detected": true, "mttd_s": 19, "rca_service": "inventory-svc", "rca_correct": true},
+    {"id": 4, "name": "gateway_cpu_stress", "detected": true, "mttd_s": 41, "rca_service": "api-gateway", "rca_correct": true},
+    {"id": 5, "name": "payment_db_memory_fill", "detected": false, "mttd_s": null, "rca_service": null, "rca_correct": false},
+    {"id": 6, "name": "auth_clock_skew", "detected": true, "mttd_s": 27, "rca_service": "auth-svc", "rca_correct": true},
+    {"id": 7, "name": "log_collector_disk_fill", "detected": false, "mttd_s": null, "rca_service": null, "rca_correct": false},
+    {"id": 8, "name": "edge_partition", "detected": true, "mttd_s": 35, "rca_service": "frontend", "rca_correct": true},
+    {"id": 9, "name": "dns_slow_lookup", "detected": true, "mttd_s": 48, "rca_service": "dns-resolver", "rca_correct": true},
+    {"id": 10, "name": "checkout_retry_storm", "detected": true, "mttd_s": 24, "rca_service": "checkout-svc", "rca_correct": false}
+  ]
+}
